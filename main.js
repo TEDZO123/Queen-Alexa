@@ -131,7 +131,7 @@ const imageToBase64 = require('image-to-base64')
         buttons = [
           { buttonId: `h`, buttonText: { displayText: "nice to meet you" }, type: 1 },
                     { buttonId: `t`, buttonText: { displayText: "which person are you" }, type: 1 },
-                     { buttonId: `g`, buttonText: { displayText: "girl/boy" }, type: 1 },
+                     { buttonId: `g`, buttonText: { displayText: "tedzo/.menu" }, type: 1 },
         ];         
         imageMsg = (
           await hyper.prepareMessageMedia(buff, "imageMessage", {
